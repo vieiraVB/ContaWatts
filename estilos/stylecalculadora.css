@@ -1,0 +1,204 @@
+.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #232323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+    z-index: 9999;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.copyright{
+    height: 52px;
+    background-color: #353535;
+}
+
+.conteudocopy{
+    color: #f1f1f1;
+    padding-top: 20px;
+    padding-left: 34%;
+}
+
+.sidebar p {
+    padding-left: 32px;
+}
+
+#funcoes{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sair{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#usuario{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 150px;
+}
+
+#botaosair{
+    color: #f1f1f1;
+    padding-left: 32px;
+}
+
+#botaosair:hover{
+    color: #9e9e9e;
+}
+
+#tituloConteudo{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    padding-top: 50px;
+    color: #fafafa;
+}
+
+#tituloAparelhos{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding-top: 50px;
+    padding-left: 25px;
+    color: #fafafa;
+}
+
+#conteudo{
+    min-height: 80vh;
+    width: 100%;
+    background-color: #232323;
+}
+
+#icone{
+    background-color: #fafafa;
+    color: #232323;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 25px;
+}
+
+#adicionarAparelho {
+    padding: 10px;
+    width: 50%;
+    margin-left: 130px;
+    margin-top: 25px;
+    color: #fafafa;
+    background-color: #bbbb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+#adicionarAparelho:hover{
+    background-color: #616060;
+    transition: 300ms;
+}
+
+#novoApTitulo{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.calc {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #232323;
+    width: 500px;
+    min-height: 450px;
+    padding: 20px;
+    color: white;
+    z-index: 9999;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.calc .closeBtncalc {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#aparelhoForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px); /* Metade da largura, com ajuste de margem */
+}
+
+.form-row.full-width {
+    width: 100%; /* Campo de nome do aparelho ocupa toda a largura */
+}
+
+#aparelhoForm label {
+    margin-bottom: 5px;
+}
+
+#aparelhoForm input, #aparelhoForm select, #aparelhoForm button {
+    width: 100%;
+    padding: 5px;
+}
+
+#aparelhoForm button {
+    width: calc(100% - 20px); /* Ajuste para manter o botão no centro */
+    margin: 20px 10px 0 10px;
+}
+
+#aparelhoForm label, #aparelhoForm input, #aparelhoForm select, #aparelhoForm button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
