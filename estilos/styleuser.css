@@ -1,0 +1,291 @@
+.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #232323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+    z-index: 9999;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.copyright{
+    height: 52px;
+    background-color: #353535;
+}
+
+.conteudocopy{
+    color: #f1f1f1;
+    padding-top: 20px;
+    padding-left: 34%;
+}
+
+.sidebar p {
+    padding-left: 32px;
+}
+
+.dadosDoUser{
+    padding-top: 70px;
+    width: 100%;
+}
+
+.dadosDoUser p{
+    color: #fafafa;
+    padding-left: 130px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#funcoes{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sair{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#usuario{
+        font-family: "Jost", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+        padding-left: 150px;
+}
+
+#botaosair{
+    color: #f1f1f1;
+    padding-left: 32px;
+}
+
+#botaosair:hover{
+    color: #9e9e9e;
+}
+
+.tituloConteudo{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding-top: 50px;
+    padding-left: 40%;
+    color: #fafafa;
+}
+
+#conteudo{
+    height: 80vh;
+    width: 100%;
+    background-color: #232323;
+}
+
+#tituloedit{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+
+#botaoedit{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 30px;
+    background-color: #bbbb;
+}
+
+#formularioNome, #formularioUsuario, #formularioEmail, #formularioCPF{
+    margin-top: 30%;
+}
+
+
+.editnome {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #232323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+    z-index: 9999;
+}
+
+.editnome input{
+    width: 70%;
+    margin-left: 75px;
+}
+
+.editnome a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.editnome a:hover {
+    color: #f1f1f1;
+}
+
+.editnome .closeBtnnome {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.editusuario {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #232323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+    z-index: 9999;
+}
+
+.editusuario input{
+    width: 70%;
+    margin-left: 75px;
+}
+
+.editusuario a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.editusuario a:hover {
+    color: #f1f1f1;
+}
+
+.editusuario .closeBtnusuario {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.editemail {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #232323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+    z-index: 9999;
+}
+
+.editemail input{
+    width: 70%;
+    margin-left: 75px;
+}
+
+.editemail a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.editemail a:hover {
+    color: #f1f1f1;
+}
+
+.editemail .closeBtnemail {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.editcpf {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #232323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+    z-index: 9999;
+}
+
+.editcpf input{
+    width: 70%;
+    margin-left: 75px;
+}
+
+.editcpf a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.editcpf a:hover {
+    color: #f1f1f1;
+}
+
+.editcpf .closeBtncpf {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
